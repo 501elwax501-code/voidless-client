@@ -1,0 +1,54 @@
+{
+  "mod_elements": [
+    {
+      "name": "VoidlessClientMenuX",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "voidless_client_menu_x",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/voidlessclient/procedures/VoidlessClientMenuXProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/voidlessclient/VoidlessclientMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "voidlessclient",
+    "modName": "VoidlessClient",
+    "version": "1.0.0",
+    "description": "# Voidless Client  A client-side utility client for **NeoForge 26.1.2** with a Future-style ClickGUI.  ## Opening the menu Press **Right Shift** in-game to open or close the ClickGUI. Drag panels by their header, left-click a module to toggle it, and right-click to open its settings. Your settings and panel positions are saved to `voidless_client.properties` in your game folder.  ## Modules  **Combat** - KillAura: target priority, smooth or instant rotation, FOV and range settings - CrystalAura: place and break with damage estimation and anti-suicide - AutoTotem: refills your offhand totem - AutoRegen: uses a regeneration potion when your health is low - Surround: places obsidian around your feet  **Movement** - ElytraFly: Control and Boost modes - Speed, Sprint, Step  **Render** - XRay: ore highlighting with per-ore toggles - ESP: boxes, glow, names, health and distance - BaseFinder: finds clusters of player-made containers - Fullbright  **World** - FastPlace, FastBreak  ## HUD Watermark, animated arraylist, toggle notifications and four colour themes.  ## Requirements - Minecraft 26.1.2 - NeoForge - Client-side only. Do not install it on a server.  ## Disclaimer Many servers prohibit mods like this and their anti-cheat may detect it. You are responsible for how you use it. Only use it on singleplayer, your own server, or servers that allow it.",
+    "author": "x8hmx",
+    "websiteURL": "https://modrinth.com/mod/voidless-client",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "indir",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-26.1.2",
+    "credits": "x8hmx and void",
+    "modElementsPackage": "net.mcreator.voidlessclient"
+  },
+  "mcreatorVersion": 202600233518
+}
